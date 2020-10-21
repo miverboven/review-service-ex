@@ -56,7 +56,7 @@ jobs:
   containerize:
     runs-on: ubuntu-latest
     needs: build
-
+    name: Containerize artifact and upload to Docker Hub
     steps:
       - uses: actions/checkout@v1
 
